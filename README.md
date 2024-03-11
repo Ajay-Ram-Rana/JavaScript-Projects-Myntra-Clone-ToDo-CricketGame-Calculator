@@ -1,5 +1,5 @@
-! Java Script Projects 
-  - Calculator
-  - Cricket Game
-  - TO Do
-  - Myntra Clone Functional
+# Java Script Projects 
+  ### Calculator
+  ### Cricket Game
+  ### TO Do
+  ### Myntra Clone Functional
