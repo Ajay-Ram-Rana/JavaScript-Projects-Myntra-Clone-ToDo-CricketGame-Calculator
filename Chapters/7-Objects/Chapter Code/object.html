@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Objects</title>
+</head>
+<body>
+
+  <script>
+    let product = {
+      company : 'Mango',
+      price: 890,
+      item_name: 'T-Shirt',
+    };
+    console.log(product);
+    //console.log(product.price);
+    //console.log(product.company);
+    //console.log(product.item_name);
+    //product.company = 'Grapes';
+    //console.log(product.company);
+    //console.log(product['item_name']); 
+    // delete product.company;
+    // console.log(product.company);
+    //  let product = {
+    //   company : 'Mango',
+    //   price: 890,
+    //   item_name: 'T-Shirt',
+    //   displayPrice: function() {
+    //     //console.log(`Price of the product is ₹${product.price}`);
+    //     console.log(`Price of the product is ₹${this.price}`);
+    //   },
+    // };
+    // product.displayPrice();
+    // console.log('This is ScaDemy owned by Ajay'.length);
+    // console.log('This is ScaDemy owned by Ajay'.toUpperCase());
+    // console.log('This is ScaDemy owned by Ajay'.replace('Ajay','Ajay Ram Rana'));
+
+    // let a = 5;
+    // let b = a;
+    // console.log(`a = ${a},b = ${b}`);
+    // a = 8;
+    // console.log(`a = ${a},b = ${b}`);
+
+
+    // let x = {num:5};
+    // let y = x;
+    // console.log(`x  = ${x.num} , y = ${y.num}`);
+    // x.num = 8;
+    // console.log(`x  = ${x.num} , y = ${y.num}`);
+
+
+    // let p = {pop:'Ajay'};
+    // let q = {pop:'Ajay'};
+    // console.log(p==q);
+    // console.log(p===q); // checks the refrences only not the key values
+    let {company,price} = product;
+    console.log(company);
+    console.log(price);
+
+
+  </script>
+</body>
+</html>
